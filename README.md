@@ -1,6 +1,5 @@
 # 🎁 Dethali
 
-![Banner](https://img.shields.io/badge/Hecho_con_Amor-💖-pink)
 ![HTML](https://img.shields.io/badge/HTML5-orange)
 ![CSS](https://img.shields.io/badge/CSS3-blue)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple)
@@ -11,7 +10,7 @@
 
 ## 💌 Descripción
 
-**Dethali** es una página web elegante y moderna dedicada a ofrecer **regalos personalizados hechos con amor**.  
+**Dethali** es una página web elegante y moderna dedicada a ofrecer **regalos personalizados**.  
 El sitio presenta un diseño limpio con secciones armoniosas, suaves degradados y animaciones que transmiten una sensación cálida y profesional.
 
 Incluye un formulario de contacto completamente funcional, que envía mensajes directamente al correo mediante [Formspree.io](https://formspree.io/).
