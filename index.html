@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dethali</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">🎁 Dethali</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#regalos">Regalos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#info">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reseñas">Reseñas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">Preguntas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="inicio" class="hero"
+    style="min-height: 95vh; display: flex; align-items: center; justify-content: center; text-align: center; background: linear-gradient(135deg, #fce4ec, #f8bbd0); position: relative; overflow: hidden;">
+    <div class="container" style="z-index: 2;">
+      <h1 style="font-size: 3rem; font-weight: 700; color: #d81b60; margin-bottom: 1rem;">
+        Detalles que enamoran — Dethali
+      </h1>
+      <p class="lead" style="font-size: 1.3rem; color: #4a4a4a; max-width: 650px; margin: 0 auto 2rem;">
+        Cajas y regalos personalizados para cada momento. Diseño cuidado, presentación premium.
+      </p>
+      <div class="hero-cta mt-3" style="margin-top: 2rem;">
+        <a href="#regalos" class="btn btn-primary-cta"
+          style="background-color: #e86b90; border: none; padding: 0.8rem 2rem; font-size: 1.1rem; border-radius: 2rem; color: #fff; text-decoration: none; margin-right: 1rem;">
+          Ver Regalos
+        </a>
+        <a href="#contacto" class="btn btn-outline-light-cta"
+          style="border: 2px solid #e86b90; color: #e86b90; padding: 0.8rem 2rem; font-size: 1.1rem; border-radius: 2rem; text-decoration: none;">
+          Cotizar
+        </a>
+      </div>
+    </div>
+
+
+    <img
+      src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><rect rx='25' ry='25' width='200' height='200' fill='%23e86b90'/></svg>"
+      class="floating-gift large" style="left:6%; top:10%; position:absolute; z-index:1; opacity:0.2;" alt="">
+    <img
+      src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><rect rx='20' ry='20' width='140' height='140' fill='%23f7b6c8'/></svg>"
+      class="floating-gift medium" style="right:6%; top:18%; position:absolute; z-index:1; opacity:0.3;" alt="">
+    <img
+      src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='90' height='90'><rect rx='15' ry='15' width='90' height='90' fill='%23f7b6c8'/></svg>"
+      class="floating-gift small" style="left:42%; bottom:6%; position:absolute; z-index:1; opacity:0.3;" alt="">
+  </header>
+
+
+  <!-- REGALOS -->
+  <section id="regalos" class="py-5" style="background: linear-gradient(180deg, #fff, #ffeef4);">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-title"
+          style="color:#e86b90; font-size:1.3rem; letter-spacing:1px; text-transform:uppercase; font-weight:600;">
+          Nuestros Regalos
+        </div>
+        <h3 class="fw-bold" style="font-size:2rem; color:#d81b60;">Cajas diseñadas con cariño</h3>
+        <p class="text-muted" style="font-size:1.1rem;">Elige una idea o pídela totalmente personalizada.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="gift-card p-4 shadow-sm bg-white rounded-4 h-100"
+            style="transition: all 0.3s ease; border:1px solid #f8bbd0;">
+            <img src="img/imag1.jpeg" class="w-100 rounded-4" alt="Caja para ella"
+              style="height: 270px; object-fit: cover;">
+            <div class="mt-3 text-center">
+              <h5 class="mb-1" style="font-size:1.3rem; color:#d81b60;">Caja para Ella 💕</h5>
+              <p class="small text-muted mb-3" style="font-size:1rem;">Dulces, flores y una tarjeta personalizada.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold" style="font-size:1.1rem;">S/ 79</span>
+                <button class="btn btn-consultar" data-bs-toggle="modal" data-bs-target="#modalConsulta"
+                  data-producto="Caja para Ella 💕"
+                  style="background-color:#e86b90; color:white; border:none; border-radius:2rem; padding:0.5rem 1.5rem; font-weight:500;">
+                  Consultar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="gift-card p-4 shadow-sm bg-white rounded-4 h-100"
+            style="transition: all 0.3s ease; border:1px solid #f8bbd0;">
+            <img src="img/imag2.jpeg" class="w-100 rounded-4" alt="Caja para él"
+              style="height: 270px; object-fit: cover;">
+            <div class="mt-3 text-center">
+              <h5 class="mb-1" style="font-size:1.3rem; color:#d81b60;">Caja para Él 🎁</h5>
+              <p class="small text-muted mb-3" style="font-size:1rem;">Selección premium para sorprender con estilo.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold" style="font-size:1.1rem;">S/ 89</span>
+                <button class="btn btn-consultar" data-bs-toggle="modal" data-bs-target="#modalConsulta"
+                  data-producto="Caja para Él 🎁"
+                  style="background-color:#e86b90; color:white; border:none; border-radius:2rem; padding:0.5rem 1.5rem; font-weight:500;">
+                  Consultar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="gift-card p-4 shadow-sm bg-white rounded-4 h-100"
+            style="transition: all 0.3s ease; border:1px solid #f8bbd0;">
+            <img src="img/imag3.jpeg" class="w-100 rounded-4" alt="Caja personalizada"
+              style="height: 270px; object-fit: cover;">
+            <div class="mt-3 text-center">
+              <h5 class="mb-1" style="font-size:1.3rem; color:#d81b60;">Caja Personalizada ✨</h5>
+              <p class="small text-muted mb-3" style="font-size:1rem;">Diseño a medida según tu idea y presupuesto.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold" style="font-size:1.1rem;">Desde S/ 99</span>
+                <button class="btn btn-consultar" data-bs-toggle="modal" data-bs-target="#modalConsulta"
+                  data-producto="Caja Personalizada ✨"
+                  style="background-color:#e86b90; color:white; border:none; border-radius:2rem; padding:0.5rem 1.5rem; font-weight:500;">
+                  Consultar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- MODAL -->
+  <div class="modal fade" id="modalConsulta" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 shadow-lg border-0" style="overflow: hidden;">
+        <!-- Header -->
+        <div class="modal-header"
+          style="background: linear-gradient(90deg, #e86b90, #f8bbd0); color: #fff; border: none; padding: 1.2rem 1.5rem;">
+          <h5 class="modal-title fw-bold" style="font-size: 1.4rem;">Consulta tu detalle 💌</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body text-center py-5 px-4" style="background-color: #fffafc;">
+          <p id="productoSeleccionado" class="fw-bold fs-4 mb-3" style="color:#d81b60;"></p>
+          <p class="text-muted mb-4" style="font-size:1.05rem;">
+            Cuéntanos qué te gustaría incluir en tu caja y te ayudamos a personalizarla.
+            También te enviamos fotos y disponibilidad 💕
+          </p>
+          <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a id="whatsappLink" class="btn btn-lg"
+              style="background:#25D366; color:#fff; border-radius:2rem; padding:0.8rem 2rem; font-weight:500;"
+              target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp me-2"></i>Contactar por WhatsApp
+            </a>
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal"
+              style="border-radius:2rem; padding:0.8rem 2rem;">
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INFO -->
+  <section id="info" class="py-5" style="background: linear-gradient(180deg, #fff, #ffeef4);">
+    <div class="container py-4">
+      <div class="row align-items-center gx-5">
+        <!-- Texto -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h4 class="section-title"
+            style="color:#e86b90; font-size:1.3rem; letter-spacing:1px; text-transform:uppercase; font-weight:600;">
+            Sobre Nosotros
+          </h4>
+          <h3 class="fw-bold mb-3" style="font-size:2rem; color:#d81b60;">Regalos con presencia, cariño y estilo</h3>
+          <p class="text-muted" style="font-size:1.1rem; line-height:1.7;">
+            En <strong>Dethali</strong> cuidamos cada detalle: selección de productos, empaques premium y mensajes
+            personalizados.
+            Nuestro objetivo es que cada caja cuente una historia, transmitiendo emociones con elegancia y dedicación.
+          </p>
+
+          <ul class="list-unstyled text-muted mt-3" style="font-size:1.05rem;">
+            <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Presentación premium</li>
+            <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Opciones personalizadas</li>
+            <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Envíos rápidos y seguros</li>
+          </ul>
+        </div>
+
+        <!-- Mapa -->
+        <div class="col-lg-6">
+          <div class="ratio ratio-16x9 shadow rounded-4 overflow-hidden" style="border:4px solid #f8bbd0;">
+            <!--<iframe class="map-iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.857159739836!2d-77.0427932!3d-12.129122599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8d4a2e72f45%3A0x6e5b16d90f80a4d4!2sMiraflores%2C%20Per%C3%BA!5e0!3m2!1ses!2spe!4v1695679999999!5m2!1ses!2spe"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+            <img src="img/nosotros.jpeg" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Opiniones de Clientes -->
+  <section class="py-5" style="background: linear-gradient(180deg, #fff, #ffeef4);">
+    <div class="container text-center">
+      <h2 class="mb-4 fw-bold" style="font-size:2rem; color:#d81b60;">💝 Opiniones de nuestros clientes</h2>
+      <p class="text-center text-secondary mb-5">
+        Historias reales de personas que encontraron el regalo perfecto con
+        <span class="fw-semibold" style="color:#C2185B;">Dethali</span>.
+      </p>
+
+      <!-- Carrusel -->
+      <div id="opinionesCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+        <div class="carousel-inner">
+
+          <!-- Opinión 1 -->
+          <div class="carousel-item active">
+            <div class="card border-0 shadow-sm mx-auto" style="max-width: 700px; border-radius: 20px;">
+              <div class="card-body p-4 bg-white rounded-4">
+                <p class="fs-5 fst-italic text-secondary">
+                  “Encargué una caja de regalo para el cumpleaños de mi mejor amiga 💕. ¡Le encantó cada detalle! Llegó
+                  puntual y con una presentación hermosa.”
+                </p>
+                <h5 class="fw-semibold mt-3 mb-0 text-dark">— Daniela Morales</h5>
+                <small class="text-muted">Cliente verificada</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Opinión 2 -->
+          <div class="carousel-item">
+            <div class="card border-0 shadow-sm mx-auto" style="max-width: 700px; border-radius: 20px;">
+              <div class="card-body p-4 bg-white rounded-4">
+                <p class="fs-5 fst-italic text-secondary">
+                  “Pedí un detalle personalizado para mi pareja y fue todo un éxito 🥰. El empaque, el aroma y los
+                  colores fueron perfectos.”
+                </p>
+                <h5 class="fw-semibold mt-3 mb-0 text-dark">— Ricardo López</h5>
+                <small class="text-muted">Cliente satisfecho</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Opinión 3 -->
+          <div class="carousel-item">
+            <div class="card border-0 shadow-sm mx-auto" style="max-width: 700px; border-radius: 20px;">
+              <div class="card-body p-4 bg-white rounded-4">
+                <p class="fs-5 fst-italic text-secondary">
+                  “Es mi tienda favorita para regalos ✨. Siempre encuentro algo especial y la atención al cliente es
+                  impecable.”
+                </p>
+                <h5 class="fw-semibold mt-3 mb-0 text-dark">— Sofía Aguilar</h5>
+                <small class="text-muted">Compradora frecuente</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#opinionesCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#opinionesCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- Preguntas Frecuentes -->
+  <section id="faq" class="py-5" style="background: linear-gradient(180deg, #fff, #ffeef4);">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="fw-semibold text-uppercase"
+          style="color:#e86b90; font-size:1.3rem; letter-spacing:1px; text-transform:uppercase; font-weight:600;">
+          Preguntas Frecuentes</p>
+        <h2 class="fw-bold" style="font-size:2rem; color:#d81b60;">💬 Dudas comunes</h2>
+        <p class="text-muted">Encuentra aquí las respuestas a las preguntas más habituales de nuestros clientes 💝</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+          <!-- FAQ Item -->
+          <div class="faq-item mb-3">
+            <div class="faq-q">
+              <span>¿Con cuánto tiempo debo pedir mi caja?</span>
+              <i class="bi bi-chevron-down"></i>
+            </div>
+            <div class="faq-a">
+              Sugerimos hacer el pedido con al menos <b>48 horas de anticipación</b>.
+              Para personalizaciones o fechas especiales, recomendamos <b>5 días antes</b>.
+            </div>
+          </div>
+
+          <!-- FAQ Item -->
+          <div class="faq-item mb-3">
+            <div class="faq-q">
+              <span>¿Hacen entregas a domicilio?</span>
+              <i class="bi bi-chevron-down"></i>
+            </div>
+            <div class="faq-a">
+              ¡Sí! Realizamos entregas en <b>Lima Metropolitana</b> y envíos a provincias mediante courier con
+              <b>tracking de seguimiento</b>.
+            </div>
+          </div>
+
+          <!-- FAQ Item -->
+          <div class="faq-item mb-3">
+            <div class="faq-q">
+              <span>¿Puedo incluir fotos o mensajes?</span>
+              <i class="bi bi-chevron-down"></i>
+            </div>
+            <div class="faq-a">
+              Claro 💌. Podemos imprimir tus <b>fotos</b>, incluir <b>mensajes personalizados</b> y adaptar el contenido
+              según el destinatario.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-5" style="background: linear-gradient(180deg, #fff, #ffeef4);">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="fw-semibold text-uppercase"
+          style="color:#e86b90; font-size:1.3rem; letter-spacing:1px; text-transform:uppercase; font-weight:600;">
+          Contacto</p>
+        <h2 class="fw-bold" style="font-size:2rem; color:#d81b60;">💌 ¿Listo para sorprender?</h2>
+        <p class="text-muted">Cuéntanos tu idea y te responderemos con una propuesta personalizada hecha con amor.</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <!-- 🚀 Formspree integrado -->
+          <form action="https://formspree.io/f/mldpzzeq" method="POST" class="row g-3 p-4 bg-white rounded-4 shadow-lg"
+            id="formContacto">
+            <div class="col-md-6">
+              <input class="form-control form-control-lg" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="col-md-6">
+              <input class="form-control form-control-lg" type="email" name="email" placeholder="Correo" required>
+            </div>
+            <div class="col-12">
+              <input class="form-control form-control-lg" name="asunto" placeholder="Asunto">
+            </div>
+            <div class="col-12">
+              <textarea class="form-control form-control-lg" name="message" rows="5" placeholder="Describe tu idea..."
+                required></textarea>
+            </div>
+            <div class="col-12 d-flex justify-content-between align-items-center flex-wrap">
+              <small class="text-muted mb-2">También puedes usar el botón de WhatsApp abajo a la derecha 📱</small>
+              <button class="btn btn-enviar px-4 py-2 fw-semibold" type="submit">Enviar solicitud</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer class="text-white pt-5 pb-3" style="background: linear-gradient(180deg, #c2185b 0%, #9c1c66 100%);">
+    <div class="container fade-in">
+      <div class="row footer-top align-items-start mb-4">
+
+        <!-- Marca -->
+        <div class="col-md-4 mb-4">
+          <h4 class="fw-bold mb-2" style="font-family: 'Poppins', sans-serif;">Dethali 🎁</h4>
+          <p class="text-white-50 small">
+            Cajas y detalles para cada historia.
+            <br>Presentación premium y cariño en cada punto 💝
+          </p>
+        </div>
+
+        <!-- Redes sociales -->
+        <div class="col-md-4 mb-4 text-md-center">
+          <h6 class="fw-semibold text-uppercase mb-3" style="letter-spacing:1px;">Síguenos</h6>
+          <div class="d-flex justify-content-md-center gap-3">
+            <a class="social-link" href="https://www.instagram.com/dethaliperu?igsh=MTJzbHJ6dmdqY2VtbA=="
+              target="_blank" rel="noopener noreferrer" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a class="social-link" href="https://www.facebook.com/share/1GTqhuTEEp/" target="_blank"
+              rel="noopener noreferrer" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a class="social-link"
+              href="https://api.whatsapp.com/send?phone=%2B51954757023&fbclid=IwVERDUANkwPpleHRuA2FlbQIxMAABHvlQDeURmvEpTYD__8Q31emgMSHvLQ5_P2lZ3vDg2Hp1aYDHgh5fGzS6fuBG_aem_w2f1pmkYuRlULF_P2bYz2Q"
+              target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a class="social-link" href="https://www.tiktok.com/@dethaliperu?_t=ZS-90k6Vwjx36S&_r=1" target="_blank"
+              rel="noopener noreferrer" title="TikTok"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="col-md-4 mb-4 text-md-end">
+          <h6 class="fw-semibold text-uppercase mb-3" style="letter-spacing:1px;">Newsletter</h6>
+          <form id="newsletterForm" class="d-flex flex-column flex-sm-row gap-2 justify-content-md-end">
+            <input type="email" class="form-control form-control-sm newsletter-input" placeholder="Tu correo" required>
+            <button class="btn btn-newsletter fw-semibold px-3" type="submit">Suscribir</button>
+          </form>
+          <small class="text-white-50 d-block mt-2">Recibe ideas y promociones exclusivas ✨</small>
+        </div>
+      </div>
+
+      <hr class="border-light opacity-25">
+
+      <div class="text-center fade-in">
+        <small class="text-white-50">
+          © 2025 <span class="fw-semibold text-white">Dethali</span> — Todos los derechos reservados
+          • <a href="#" class="text-white-50 text-decoration-none">Política de privacidad</a>
+        </small>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- WhatsApp Floating -->
+  <a id="whatsappFab" class="whatsapp-fab" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="bi bi-whatsapp" style="font-size:1.6rem;color:#fff;"></i>
+    <span class="badge">¿Hablas?</span>
+  </a>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
