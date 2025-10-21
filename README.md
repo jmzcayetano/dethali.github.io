@@ -8,14 +8,14 @@
 
 ---
 
-🌐 **Visita la web:** [https://jmzcayetano.github.io/dethali.github.io/](https://jmzcayetano.github.io/dethali.github.io/)
-
 ## 💌 Descripción
 
 **Dethali** es una página web elegante y moderna dedicada a ofrecer **regalos personalizados**.  
 El sitio presenta un diseño limpio con secciones armoniosas, suaves degradados y animaciones que transmiten una sensación cálida y profesional.
 
 Incluye un formulario de contacto completamente funcional, que envía mensajes directamente al correo mediante [Formspree.io](https://formspree.io/).
+
+🌐 **Visita la web:** [https://jmzcayetano.github.io/dethali.github.io/](https://jmzcayetano.github.io/dethali.github.io/)
 
 ---
 
