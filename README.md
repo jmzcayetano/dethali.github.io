@@ -1,4 +1,4 @@
-# 🎁 Dethali - Detalles que enamoran 💐
+# 🎁 Dethali
 
 ![Banner](https://img.shields.io/badge/Hecho_con_Amor-💖-pink)
 ![HTML](https://img.shields.io/badge/HTML5-orange)
